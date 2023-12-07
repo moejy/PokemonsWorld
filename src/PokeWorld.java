@@ -1,4 +1,4 @@
-package PokemonsWorld.PokemonWorld;
+package PokemonsWorld.src;
 
 public class PokeWorld {
     public static void main(String[] args) {

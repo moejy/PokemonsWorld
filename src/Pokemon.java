@@ -1,4 +1,4 @@
-package PokemonsWorld.PokemonWorld;
+package PokemonsWorld.src;
 
 import java.util.Random;
 

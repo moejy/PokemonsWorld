@@ -1,4 +1,4 @@
-package PokemonsWorld.PokemonWorld;
+package PokemonsWorld.src;
 
 public class GrassPokemon {
 }
