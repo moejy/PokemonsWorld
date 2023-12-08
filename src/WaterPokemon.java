@@ -1,5 +1,9 @@
 package PokemonsWorld.src;
 
-public class WaterPokemon {
-    String x = "hi";
+class WaterPokemon extends Pokemon{
+
+    public WaterPokemon(String name){
+        this.name = name;
+        this.type = "Water";
+    }
 }

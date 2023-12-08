@@ -2,16 +2,22 @@ package PokemonsWorld.src;
 
 public class PokeWorld {
     public static void main(String[] args) {
-        Pokemon shiggy = new Pokemon("Shiggy", "Water");
-        Pokemon fireu = new Pokemon("Fireu", "Fire");
+        GhostPokemon gengar = new GhostPokemon("gengi");
+        FirePokemon feuriegel = new FirePokemon("feuri");
+        GrassPokemon bisasam = new GrassPokemon("bisa");
+        WaterPokemon shiggy = new WaterPokemon("shiggybi");
+        PsychicPokemon alkazam = new PsychicPokemon("alka");
+        RockPokemon onix = new RockPokemon("onix");
 
 
+        gengar.greet();
+        bisasam.greet();
+        feuriegel.greet();
         shiggy.greet();
-        fireu.greet();
-        shiggy.fight(fireu);
-        System.out.println(shiggy.name + " : " + shiggy.getHP() + " HP");
-        System.out.println(shiggy.name + " : " + shiggy.getType() + " type");
-        System.out.println(shiggy.name + " LVL : " + shiggy.getLevel());
-        shiggy.restoreHP();
+        feuriegel.fight(gengar);
+        System.out.println(gengar.name + " : " + bisasam.getHP() + " HP");
+        System.out.println(gengar.name + " : " + gengar.getType() + " type");
+        System.out.println(gengar.name + " LVL : " + gengar.getLevel());
+        gengar.restoreHP();
     }
 }

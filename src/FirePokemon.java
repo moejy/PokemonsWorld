@@ -1,4 +1,9 @@
 package PokemonsWorld.src;
 
-public class FirePokemon {
+class FirePokemon extends Pokemon {
+
+    public FirePokemon(String name){
+        this.name = name;
+        this.type = "fire";
+    }
 }

@@ -1,4 +1,9 @@
 package PokemonsWorld.src;
 
-public class RockPokemon {
+class RockPokemon extends Pokemon{
+
+    public RockPokemon(String name){
+        this.name = name;
+        this.type = "Rock";
+    }
 }
