@@ -8,8 +8,10 @@ public class PokeWorld {
         WaterPokemon shiggy = new WaterPokemon("shiggybi");
         PsychicPokemon alkazam = new PsychicPokemon("alka");
         RockPokemon onix = new RockPokemon("onix");
+        BugPokemon metapod = new BugPokemon("metaMoon");
 
-
+        onix.greet();
+        alkazam.greet();
         gengar.greet();
         bisasam.greet();
         feuriegel.greet();
