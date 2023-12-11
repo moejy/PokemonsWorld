@@ -10,6 +10,7 @@ public class PokeWorld {
         RockPokemon onix = new RockPokemon("onix");
         BugPokemon metapod = new BugPokemon("metaMoon");
 
+        metapod.greet();
         onix.greet();
         alkazam.greet();
         gengar.greet();
