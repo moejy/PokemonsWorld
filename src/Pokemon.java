@@ -78,9 +78,6 @@ abstract class Pokemon {
         this.HP = 100;
     }
 
-
-    //Getter methods
-
     public int getHP() {
         return this.HP;
     }
