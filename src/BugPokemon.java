@@ -2,8 +2,8 @@ package PokemonsWorld.src;
 
 class BugPokemon extends Pokemon {
 
-    public BugPokemon(String name){
+    public BugPokemon(String name) {
         this.name = name;
-        this.type = "Bug";
+        this.type = PokemonType.BUG;
     }
 }

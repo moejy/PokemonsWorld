@@ -1,18 +1,25 @@
 package PokemonsWorld.src;
 
+import java.util.Objects;
 import java.util.Random;
 
 abstract class Pokemon {
     Random random = new Random(); //TODO
-    protected int maxDMG = 15;
+    // protected int maxDMG = 15;
     protected String name;
-    protected int HP = 100;
+    protected float HP = 100;
     protected int level = 1;
-    protected String type;
-    protected int DMG = random.nextInt(maxDMG);
+    protected PokemonType type;
+    protected float DMG = 10;
     protected int EXP = 0;
 
+    DamageCalculator calculator = new DamageCalculator();
+
     public void fight(Pokemon enemy) {
+
+        this.DMG = calculator.calculateDamage(this.type, enemy.type, this.DMG);
+
+
         while (this.HP > 0 && enemy.HP > 0) {
 
 
@@ -78,7 +85,7 @@ abstract class Pokemon {
         this.HP = 100;
     }
 
-    public int getHP() {
+    public float getHP() {
         return this.HP;
     }
 
@@ -86,7 +93,7 @@ abstract class Pokemon {
         return this.level;
     }
 
-    public String getType() {
+    public PokemonType getType() {
         return this.type;
     }
 }

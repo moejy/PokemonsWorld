@@ -4,6 +4,6 @@ class RockPokemon extends Pokemon{
 
     public RockPokemon(String name){
         this.name = name;
-        this.type = "Rock";
+        this.type = PokemonType.ROCK;
     }
 }

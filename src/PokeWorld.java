@@ -17,7 +17,7 @@ public class PokeWorld {
         bisasam.greet();
         feuriegel.greet();
         shiggy.greet();
-        feuriegel.fight(gengar);
+        shiggy.fight(feuriegel);
         System.out.println(gengar.name + " : " + bisasam.getHP() + " HP");
         System.out.println(gengar.name + " : " + gengar.getType() + " type");
         System.out.println(gengar.name + " LVL : " + gengar.getLevel());

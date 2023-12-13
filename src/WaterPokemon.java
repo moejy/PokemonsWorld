@@ -4,6 +4,6 @@ class WaterPokemon extends Pokemon{
 
     public WaterPokemon(String name){
         this.name = name;
-        this.type = "Water";
+        this.type = PokemonType.WATER;
     }
 }
