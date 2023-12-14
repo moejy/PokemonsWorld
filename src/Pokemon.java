@@ -4,7 +4,6 @@ import java.util.Objects;
 import java.util.Random;
 
 abstract class Pokemon {
-    Random random = new Random(); //TODO
     // protected int maxDMG = 15;
     protected String name;
     protected float HP = 100;
