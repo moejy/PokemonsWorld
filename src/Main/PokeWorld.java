@@ -8,7 +8,7 @@ public class PokeWorld {
         FirePokemon feuriegel = new FirePokemon("feuri");
         GrassPokemon bisasam = new GrassPokemon("bisa");
         WaterPokemon shiggy = new WaterPokemon("shiggybi");
-        PsychicPokemon alkazam = new PsychicPokemon("alka");
+        PsychicPokemon alkazam = new PsychicPokemon("alkaa");
         RockPokemon onix = new RockPokemon("onix");
         BugPokemon metapod = new BugPokemon("metaMoon");
 
