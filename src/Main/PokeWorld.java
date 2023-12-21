@@ -4,12 +4,12 @@ import PokemonsWorld.src.DefinedTypes.*;
 
 public class PokeWorld {
     public static void main(String[] args) {
-        GhostPokemon gengar = new GhostPokemon("gengi");
-        FirePokemon feuriegel = new FirePokemon("feuri");
-        GrassPokemon bisasam = new GrassPokemon("bisa");
-        WaterPokemon shiggy = new WaterPokemon("shiggybi");
-        PsychicPokemon alkazam = new PsychicPokemon("alkaa");
-        RockPokemon onix = new RockPokemon("onix");
+        GhostPokemon gengar = new GhostPokemon("geengi");
+        FirePokemon feuriegel = new FirePokemon("feueri");
+        GrassPokemon bisasam = new GrassPokemon("bissa");
+        WaterPokemon shiggy = new WaterPokemon("shigsgybi");
+        PsychicPokemon alkazam = new PsychicPokemon("alkaaa");
+        RockPokemon onix = new RockPokemon("onyix");
         BugPokemon metapod = new BugPokemon("metaMoon");
 
         metapod.greet();
