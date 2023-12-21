@@ -1,9 +1,9 @@
-package PokemonsWorld.src;
+package PokemonsWorld.src.ObjectConstruction;
 
-import java.util.Objects;
-import java.util.Random;
+import PokemonsWorld.src.Type.PokemonType;
+import PokemonsWorld.src.TypeDmgCalculator.DamageCalculator;
 
-abstract class Pokemon {
+public abstract class Pokemon {
     // protected int maxDMG = 15;
     protected String name;
     protected float HP = 100;
@@ -82,6 +82,10 @@ abstract class Pokemon {
     public void restoreHP() {
         System.out.println(this.name + " is getting healed... ");
         this.HP = 100;
+    }
+
+    public String getName(){
+        return this.name;
     }
 
     public float getHP() {

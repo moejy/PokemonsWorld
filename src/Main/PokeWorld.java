@@ -1,4 +1,6 @@
-package PokemonsWorld.src;
+package PokemonsWorld.src.Main;
+
+import PokemonsWorld.src.DefinedTypes.*;
 
 public class PokeWorld {
     public static void main(String[] args) {
@@ -18,9 +20,9 @@ public class PokeWorld {
         feuriegel.greet();
         shiggy.greet();
         shiggy.fight(feuriegel);
-        System.out.println(gengar.name + " : " + bisasam.getHP() + " HP");
-        System.out.println(gengar.name + " : " + gengar.getType() + " type");
-        System.out.println(gengar.name + " LVL : " + gengar.getLevel());
-        gengar.restoreHP();
+        System.out.println(shiggy.getName() + " : " + shiggy.getHP() + " HP");
+        System.out.println(shiggy.getName() + " : " + shiggy.getType() + " type");
+        System.out.println(shiggy.getName() + " LVL : " + shiggy.getLevel());
+        shiggy.restoreHP();
     }
 }

@@ -1,4 +1,4 @@
-package PokemonsWorld.src;
+package PokemonsWorld.src.Type;
 
 // enumaration = Aufzählung // Sachen die fest sind /
 public enum PokemonType {

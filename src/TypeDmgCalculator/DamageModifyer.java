@@ -1,4 +1,6 @@
-package PokemonsWorld.src;
+package PokemonsWorld.src.TypeDmgCalculator;
+
+import PokemonsWorld.src.Type.PokemonType;
 
 public class DamageModifyer {
 

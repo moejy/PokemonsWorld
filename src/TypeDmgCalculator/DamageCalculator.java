@@ -1,7 +1,8 @@
-package PokemonsWorld.src;
+package PokemonsWorld.src.TypeDmgCalculator;
+
+import PokemonsWorld.src.Type.PokemonType;
 
 import java.util.ArrayList;
-import java.util.Optional;
 
 public class DamageCalculator {
     ArrayList<DamageModifyer> modifyerList = new ArrayList<>();
